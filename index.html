@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Page</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="bg-black text-white font-sans">
+    <!-- Navigation Bar -->
+    <nav class="flex justify-between items-center p-4">
+        <div class="text-lg font-bold color-red">Mugiwara</div>
+        <ul class="flex space-x-6">
+            <li><a href="#" class="hover:text-green-500">Home</a></li>
+            <li><a href="#" class="hover:text-green-500">Portfolio</a></li>
+            <li><a href="#" class="hover:text-green-500"></a></li>
+            <li><a href="#" class="hover:text-green-500">About</a></li>
+        </ul>
+        <div class="flex space-x-4">
+            <button id="themeToggle" class="text-gray-400 hover:text-white" onclick="toggleTheme()">🌙</button>
+            <button class="text-gray-400 hover:text-white">👤</button>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <div class="flex justify-center items-center min-h-[80vh] px-8">
+        <!-- Left Section -->
+        <div class="max-w-md mr-8">
+            <h1 class="text-4xl font-bold mb-4">Saurav Giri</h1>
+            <p class="text-gray-400 mb-6">
+                "I am a dedicated and hardworking individual preparing for the Computer Operator exam. I have a strong interest in technology and a passion for learning new skills to grow professionally."
+            </p>
+            <button class="bg-green-500 text-black font-semibold py-2 px-6 rounded hover:bg-green-600 transition">
+                Let's get started →
+            </button>
+        </div>
+        <!-- Right Section (Image) -->
+        <div>
+            <img src="IMG-20231027-WA0038.jpg" alt="Profile Picture" class="circle-image">
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="flex justify-center space-x-6 p-4">
+        <a href="http://github.com/Trafalgar-D-Water-Law-7" class="text-gray-400 hover:text-white">GitHub</a>
+        <a href="https://www.facebook.com/saurav.giri.733630/" class="text-gray-400 hover:text-white">Facebook</a>
+        <a href="https://www.instagram.com/saurav.giri_/" class="text-gray-400 hover:text-white">Instagram</a>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
